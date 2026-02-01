@@ -1,0 +1,700 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+}
+
+header {
+  background-image: url(Assests/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-color: #131313;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: auto;
+}
+/* ---- This is my NAVBAR PART---- */
+.navbar {
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px 0;
+  display: flex;
+  /* width: 75%; */
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+.nav-btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.home {
+  text-decoration: none;
+  color: #dd7d4d;
+}
+
+.nav-underline {
+  background-color: rgba(128, 128, 128, 0.318);
+  margin: 0 13%;
+  height: 0.5px;
+  /* width: 75%; */
+}
+
+/* ======= This is my HERO PART ======= */
+.hero-part {
+  flex-direction: column;
+  margin-bottom: 15rem;
+  align-items: start;
+  margin-top: 12rem;
+  color: white;
+  display: flex;
+  padding: 0;
+  gap: 18px;
+  /* width: 75%; */
+}
+
+.hero-heading {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  width: 65%;
+}
+
+.hero-paragraph {
+  color: rgba(255, 255, 255, 0.56);
+  font-size: 16px;
+  width: 33%;
+}
+
+.hero-button {
+  background-color: #d87d4a;
+  margin-top: 16px;
+  font-size: 14px;
+  color: white;
+  height: 50px;
+  border: none;
+  width: 12%;
+  cursor: pointer;
+}
+
+/* ===== This is my category part ===== */
+.category-items {
+  justify-content: center;
+  margin-bottom: 7rem;
+  flex-direction: row;
+  margin-top: 7rem;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.headphones-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  height: 190px;
+  width: 356px;
+}
+.speakers-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  width: 357px;
+  height: 190px;
+}
+.earphones-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  width: 357px;
+  height: 190px;
+}
+
+.category-name {
+  font-size: 16px;
+}
+
+.category-shop-btn {
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  color: #898989;
+  font-weight: 600;
+  margin-top: 14px;
+  font-size: 14px;
+}
+.arrow {
+  color: #e67e22;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.headphones-photo,
+.photo {
+  filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+  position: relative;
+  margin-top: -60px;
+  display: block;
+  width: 170px;
+  z-index: 10;
+}
+
+.speakers-photo {
+  width: 180px;
+}
+.earphones-photo {
+  width: 190px;
+}
+
+/* ==== THIS IS MY ZX9 SPEAKERS SECTION ==== */
+.speakers-zx9 {
+  background-image: url(Assests/home/desktop/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-color: #d87c49;
+  justify-content: center;
+  border-radius: 6px;
+  align-items: end;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  gap: 14rem;
+  background-position: -100% 10%;
+}
+.speakers-zx9 img {
+  margin-bottom: -8.5px;
+  height: 420px;
+  width: 320px;
+}
+.speakers-details {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+  width: 30%;
+  gap: 2rem;
+}
+
+.zx9-name {
+  font-weight: 500;
+  font-size: 50px;
+  color: white;
+}
+
+.zx9-speakers-details {
+  color: rgba(255, 255, 255, 0.722);
+}
+
+.zx9-btn {
+  background-color: black;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
+  font-size: 13px;
+  color: white;
+  display: flex;
+  width: 160px;
+  height: 50px;
+}
+
+/* ==== THIS IS MY ZX7 SPEAKERS SECTION ==== */
+.zx7-speaker {
+  background-image: url(Assests/home/desktop/image-speaker-zx7.jpg);
+  background-size: cover;
+  border-radius: 6px;
+  margin: 3rem 0;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  gap: 2rem;
+}
+
+.zx7-heading {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.zx7-btn {
+  border: 2px solid black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 13px;
+  width: 150px;
+  height: 50px;
+}
+
+/* ==== THIS IS MY YX1 EARPHONES SECTION ==== */
+.earphones-yx1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.earphones-pic {
+  border-radius: 6px;
+}
+.earphones-details {
+  background-color: #f1f1f1;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 5rem;
+  border-radius: 6px;
+  display: flex;
+  height: 320px;
+  width: 100%;
+  gap: 2rem;
+  margin: 0;
+}
+
+.earphones-heading {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.earphones-btn {
+  border: 2px solid black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 13px;
+  width: 150px;
+  height: 50px;
+}
+
+/* ==== THIS IS MY AUDIOPHILE BIO SECTION ==== */
+.audiophile-bio {
+  flex-direction: row;
+  display: flex;
+  gap: 2rem;
+  width: 75%;
+  align-items: center;
+}
+
+.audiophile-heading {
+  flex-direction: column;
+  margin: 18rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.audio-gear-heading {
+  font-size: 50px;
+}
+.orange-color {
+  color: #dd7d4d;
+}
+
+.audiophile-details {
+  width: 82%;
+  color: #898989;
+}
+
+.gear-pic {
+  border-radius: 6px;
+}
+
+/* ==== THIS IS MY FOOTER SECTION ==== */
+.footer-line {
+  background-color: #ff5500;
+  height: 2px;
+  width: 100px;
+  margin-bottom: -0.2%;
+  margin-left: 12%;
+  z-index: 10;
+  position: relative;
+}
+
+.footer-container {
+  background-color: #101010;
+  padding: 5rem 0;
+}
+.footer-section {
+  display: flex;
+  color: #898989d3;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-caption {
+  width: 50%;
+}
+.social-media {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.copyright {
+  color: #898989d3;
+  margin-top: 2rem;
+  display: flex;
+  align-items: start;
+}
+
+/* ================ THIS IS MY TABLET SECTION ==========  */
+@media (min-width: 768px) and (max-width: 1100px) {
+  .container {
+    width: 90%;
+  }
+
+  header {
+    background-image: url(Assests/home/tablet/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+
+  .hero-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-update {
+    font-size: 26px;
+    letter-spacing: 12px;
+    margin-bottom: 2rem;
+    color: #8a8a8a;
+  }
+  .hero-heading {
+    font-size: 80px;
+    text-align: center;
+    width: 95%;
+  }
+  .hero-paragraph {
+    text-align: center;
+    font-size: 22px;
+    width: 90%;
+    color: #8a8a8a;
+  }
+  .hero-button {
+    width: 40%;
+    height: 70px;
+    font-size: 18px;
+  }
+
+  /* ===THIS IS MY CATEGORY SECTION ==== */
+  .category-items {
+    gap: 1rem;
+  }
+  .headphones-section,
+  .earphones-section,
+  .speakers-section {
+    width: 30%;
+  }
+  /* ==== THIS IS MY ZX9 SPEAKERS SECTION === */
+  .speakers-zx9 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    gap: 5rem;
+  }
+  .speakers-details {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .zx9-name {
+    font-size: 70px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .zx9-speakers-details {
+    font-size: 22px;
+    text-align: center;
+  }
+  .zx9-btn {
+    width: 50%;
+  }
+
+  /* ==== THIS IS MY YX1 EARPHONES SECTION ===  */
+  .earphones-yx1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .earphones-pic {
+    width: 450px;
+    height: 320px;
+    background-image: url(Assests/product-yx1-earphones/tablet/image-gallery-2.jpg);
+  }
+  .earphones-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  /* === This is my Audiophile bio section === */
+  .audiophile-bio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+  }
+  .gear-pic {
+    width: 100%;
+  }
+  .audiophile-details {
+    width: 100%;
+  }
+  .audiophile-heading {
+    margin: 5rem 0;
+  }
+  .footer-line {
+    height: 4px;
+    position: relative;
+    margin: -4px 8%;
+  }
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .footer-caption {
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .copyright {
+    position: relative;
+    margin-top: -22px;
+  }
+}
+
+/* ================ THIS IS MY MOBILE SECTION ==========  */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    background-image: url(Assests/home/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+  .hero-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-update {
+    font-size: 20px;
+    letter-spacing: 12px;
+    margin-bottom: 2rem;
+    color: #8a8a8a;
+  }
+  .hero-heading {
+    font-size: 40px;
+    text-align: center;
+    width: 90%;
+  }
+  .hero-paragraph {
+    text-align: center;
+    font-size: 22px;
+    width: 90%;
+    color: #8a8a8a;
+  }
+  .hero-button {
+    width: 40%;
+    height: 70px;
+    font-size: 18px;
+  }
+
+  /* ===THIS IS MY CATEGORY SECTION ==== */
+  .category-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .headphones-section,
+  .earphones-section,
+  .speakers-section {
+    width: 95%;
+  }
+  /* ==== THIS IS MY ZX9 SPEAKERS SECTION === */
+  .speakers-zx9 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    gap: 5rem;
+  }
+  .speakers-zx9 img {
+    width: 60%;
+    height: 60%;
+  }
+  .speakers-details {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+  .zx9-name {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .zx9-speakers-details {
+    font-size: 16px;
+    text-align: center;
+  }
+  .zx9-btn {
+    width: 50%;
+  }
+
+  /* ==== THIS IS MY ZX7 SPEAKERS SECTION ==== */
+  .zx7-speaker {
+    background-image: url(Assests/home/mobile/image-speaker-zx7.jpg);
+    background-size: cover;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .zx7-heading {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  /* ==== THIS IS MY YX1 EARPHONES SECTION ===  */
+  .earphones-yx1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+  .earphones-pic {
+    width: 100%;
+    height: 100%;
+    background-image: url(Assests/home/tablet/image-earphones-yx1.jpg);
+  }
+  .earphones-details {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 1.5rem;
+    height: auto;
+  }
+
+  /* === This is my Audiophile bio section === */
+  .audiophile-bio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  .gear-pic {
+    width: 100%;
+  }
+  .audiophile-details {
+    width: 100%;
+  }
+  .audiophile-heading {
+    margin: 1rem 0;
+  }
+  .audio-gear-heading {
+    font-size: 28px;
+  }
+  .audiophile-details {
+    font-size: 14px;
+  }
+
+  /* === THIS IS MY FOOTER SECTION ==== */
+  .footer-line {
+    position: relative;
+    margin: -4px 35%;
+    color: #d87c49;
+    height: 4px;
+  }
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+  }
+  .footer-nav-menu {
+    flex-direction: column;
+    font-size: 16px;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    display: flex;
+    gap: 4rem;
+  }
+  .footer-caption {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .copyright {
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+  }
+}
