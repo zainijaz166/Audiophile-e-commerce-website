@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   display: flex;
   width: 75%;
-}
+} 
 
 header {
   background-image: url(Assests/image-hero.jpg);
@@ -85,13 +85,17 @@ header {
 
 .hero-button {
   background-color: #d87d4a;
+  justify-content: center;
+  text-decoration: none;
+  align-items: center;
   margin-top: 16px;
   font-size: 14px;
+  cursor: pointer;
   color: white;
+  display: flex;
   height: 50px;
   border: none;
-  width: 12%;
-  cursor: pointer;
+  width: 14%;
 }
 
 /* ===== This is my category part ===== */
