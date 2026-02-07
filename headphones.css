@@ -45,7 +45,6 @@ header {
   color: #dd7d4d;
 }
 
-
 .back-btn {
   border: none;
   display: flex;
@@ -182,48 +181,48 @@ header {
 
 /* ===== This is my Headphone photo part ===== */
 .product-pic {
-display: flex;
-flex-direction: row;
-gap: 3rem;
-margin-top: 7rem;
-align-items: start;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 7rem;
+  align-items: start;
 }
-.product-photo{
+.product-photo {
   border-radius: 6px;
 }
-.left-side-pic{
+.left-side-pic {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-.right-pic{
-  height:36rem
+.right-pic {
+  height: 36rem;
 }
 /* ===== This is my Product part ===== */
-.other-items{
- display: flex;
-  margin-top: 6rem; 
+.other-items {
+  display: flex;
+  margin-top: 6rem;
   margin-bottom: 14rem;
   gap: 2rem;
 }
 
-.items{
+.items {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
-.items-heading{
+.items-heading {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 2rem;
 }
-.product-details{
+.product-details {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
 }
-.product-btn{
+.product-btn {
   text-decoration: none;
   display: flex;
   justify-content: center;
@@ -234,16 +233,15 @@ align-items: start;
   background-color: #d97c49;
 }
 
-.items-pic{
+.items-pic {
   width: 22.3rem;
   height: 22rem;
   border-radius: 6px;
 }
 
-.product-name{
+.product-name {
   font-size: 26px;
 }
-
 
 /* ===== This is my category part ===== */
 .category-items {
@@ -357,7 +355,7 @@ align-items: start;
 /* ==== THIS IS MY FOOTER SECTION ==== */
 .footer-line {
   background-color: #ff5500;
-  height: 2px;
+  height: 4px;
   width: 100px;
   margin-bottom: -0.2%;
   margin-left: 12%;
@@ -388,4 +386,142 @@ align-items: start;
   margin-top: 2rem;
   display: flex;
   align-items: start;
+}
+
+/* ================ THIS IS MY TABLET SECTION ==========  */
+@media (min-width: 800px) and (max-width: 1100px) {
+  .container {
+    margin: 0 2rem;
+  }
+
+  /* ---- This is my NAVBAR PART---- */
+  .navbar {
+    width: 94%;
+  }
+
+  .back-btn {
+    padding: 3rem 0;
+  }
+
+  /* ===== This is my XX99 MARK II part ===== */
+  .xx99 {
+    gap: 5rem;
+    width: 95%;
+    margin-bottom: 5rem;
+  }
+  .headphones-name {
+    font-size: 30px;
+    width: 65%;
+  }
+  .number {
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+
+  .product-pic {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 7rem;
+  }
+  .left-side-pic {
+    width: 97%;
+  }
+  .right-pic {
+    width: 119%;
+  }
+
+  .other-items {
+    width: 95%;
+    margin-bottom: 10rem;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  }
+  /* ===THIS IS MY FEATURES SECTION ==== */
+  .features {
+    flex-direction: column;
+    margin-bottom: 4rem;
+    display: flex;
+    width: 90%;
+    gap: 5rem;
+  }
+  .features-caption {
+    width: 100%;
+  }
+  .box-items {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+  }
+
+  /* ===THIS IS MY CATEGORY SECTION ==== */
+  .category-items {
+    gap: 1rem;
+    width: 100%;
+    margin: 0;
+  }
+  .headphones-section,
+  .earphones-section,
+  .speakers-section {
+    width: 30%;
+  }
+
+  /* === This is my Audiophile bio section === */
+  .audiophile-bio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    padding: 0;
+  }
+  .gear-pic {
+    width: 98%;
+  }
+  .audiophile-details {
+    width: 100%;
+  }
+  .audiophile-heading {
+    margin: 5rem 0;
+  }
+
+  /*=========== this is my footer part ======= */
+  .footer-line {
+    height: 4px;
+    position: relative;
+    margin: -4px 8%;
+  }
+
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 95%;
+  }
+  .footer-caption {
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .copyright {
+    position: relative;
+    margin-top: -22px;
+  }
 }
