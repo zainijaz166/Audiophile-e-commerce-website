@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audiophile e-commerce</title>
-    <!-- <link rel="stylesheet" href="" /> -->
+    <link rel="stylesheet" href="checkout.css" />
     <link
       rel="icon"
       type="image/png"
@@ -19,7 +19,6 @@
   <body>
     <!-- === THIS IS MY NAV BAR PART === -->
     <header>
-      <!-- This is my navbar part -->
       <nav class="container navbar">
         <img src="Assests/shared/desktop/logo.svg" alt="#" />
         <ul class="nav-menu">
@@ -42,5 +41,144 @@
         /></a>
       </nav>
     </header>
+    <button class="container back-btn"><a href="index.html">Go Back</a></button>
+    <!-- === THIS IS MY MAIN PART ===  -->
+    <main class="container checkout-form">
+      <section class="form-part">
+        <h2>CHECKOUT</h2>
+        <h5>BILLING DETAILS</h5>
+        <div class="billing-details">
+          <h4>Name</h4>
+          <input type="text" name="Name" id="name" placeholder="Alexei Ward" />
+        </div>
+
+        <div class="billing-details">
+          <h4>Email Address</h4>
+          <input
+            type="text"
+            name="Email"
+            id="email"
+            placeholder="alexei@mail.com"
+          />
+        </div>
+
+        <div class="billing-details">
+          <h4>Phone Number</h4>
+          <input
+            type="text"
+            name="Phone"
+            id="phone"
+            placeholder="+1 202-555-0136"
+          />
+        </div>
+
+        <h5>SHIPPING INFO</h5>
+        <div class="shipping-part">
+          <h4>Address</h4>
+          <input
+            type="text"
+            name="Address"
+            id="address"
+            placeholder="1137 Williams Avenue"
+          />
+        </div>
+        <div class="shipping-part">
+          <h4>Zip Code</h4>
+          <input
+            type="text"
+            name="Zip Code"
+            id="zip-code"
+            placeholder="10001"
+          />
+        </div>
+        <div class="shipping-part">
+          <h4>City</h4>
+          <input type="text" name="City" id="city" placeholder="New York" />
+        </div>
+        <div class="shipping-part">
+          <h4>Country</h4>
+          <input
+            type="text"
+            name="Country"
+            id="country"
+            placeholder="United States"
+          />
+        </div>
+
+        <h4>PAYMENT DETAILS</h4>
+        <div class="payment-part">
+          <h3>Payment Method</h3>
+          <div class="radio-group">
+            <div class="option">
+              <input type="radio" id="emoney" name="payment" checked />
+              <label for="emoney" class="radio-label">
+                <span class="custom-radio"></span>
+                e-Money
+              </label>
+            </div>
+
+            <div class="option">
+              <input type="radio" id="cash" name="payment" />
+              <label for="cash" class="radio-label">
+                <span class="custom-radio"></span>
+                Cash on Delivery
+              </label>
+            </div>
+          </div>
+          <div>
+            <h3>e-Money Number</h3>
+            <input
+              type="text"
+              name="e-money-number"
+              id="e-money-number"
+              placeholder="238521993"
+            />
+          </div>
+          <div>
+            <h3>e-Money Pin</h3>
+            <input
+              type="text"
+              name="e-money-pin"
+              id="e-money-pin"
+              placeholder="6891"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer-line"></div>
+    <!-- ===== This is my FOOTER part ==== -->
+    <footer class="footer-container">
+      <section class="container footer-navbar navbar">
+        <div><img src="Assests/shared/desktop/logo.svg" alt="" /></div>
+        <ul class="nav-menu footer-nav-menu">
+          <li><a class="home" href="#">HOME</a></li>
+          <li><a class="nav-btn" href="#">HEADPHONES</a></li>
+          <li><a class="nav-btn" href="#">SPEAKERS</a></li>
+          <li><a class="nav-btn" href="#">EARPHONES</a></li>
+        </ul>
+      </section>
+      <div class="container footer-section">
+        <p class="footer-caption">
+          Audiophile is an all in one stop to fulfill your audio needs. We're a
+          small team of music lovers and sound specialists who are devoted to
+          helping you get the most out of personal audlo. Come and visit our
+          demo facility - we're open 7 days a week.
+        </p>
+        <div class="social-media">
+          <a href="#"
+            ><img src="Assests/shared/desktop/icon-facebook.svg" alt="#"
+          /></a>
+          <a href="#"
+            ><img src="Assests/shared/desktop/icon-twitter.svg" alt="#"
+          /></a>
+          <a href="#"
+            ><img src="Assests/shared/desktop/icon-instagram.svg" alt="#"
+          /></a>
+        </div>
+      </div>
+      <div class="container copyright">Copyright 2021. All Rights Reserved</div>
+    </footer>
   </body>
 </html>

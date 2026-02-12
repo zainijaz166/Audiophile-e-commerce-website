@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #fafafa;
+}
+.container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+}
+header {
+  background-color: #101010;
+}
+
+/* ---- This is my NAVBAR PART---- */
+.navbar {
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px 0;
+  display: flex;
+  width: 75%;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+.nav-btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.home {
+  text-decoration: none;
+  color: #dd7d4d;
+}
+
+.back-btn {
+  border: none;
+  display: flex;
+  align-items: start;
+  padding: 4rem 0;
+  background-color: #fafafa;
+  font-size: 15px;
+}
+
+.back-btn a {
+  color: #898989;
+  text-decoration: none;
+}
+
+/* ==== THIS IS MY FOOTER SECTION ==== */
+.footer-line {
+  background-color: #ff5500;
+  height: 4px;
+  width: 100px;
+  margin-bottom: -0.2%;
+  margin-left: 12%;
+  z-index: 10;
+  position: relative;
+}
+
+.footer-container {
+  background-color: #101010;
+  padding: 5rem 0;
+}
+.footer-section {
+  display: flex;
+  color: #898989d3;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-caption {
+  width: 50%;
+}
+.social-media {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.copyright {
+  color: #898989d3;
+  margin-top: 2rem;
+  display: flex;
+  align-items: start;
+}
