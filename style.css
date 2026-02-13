@@ -18,7 +18,7 @@ body {
 } 
 
 header {
-  background-image: url(Assests/image-hero.jpg);
+  background-image: url(Assets/image-hero.jpg);
   background-repeat: no-repeat;
   background-color: #131313;
   background-position: center;
@@ -178,7 +178,7 @@ header {
 
 /* ==== THIS IS MY ZX9 SPEAKERS SECTION ==== */
 .speakers-zx9 {
-  background-image: url(Assests/home/desktop/pattern-circles.svg);
+  background-image: url(Assets/home/desktop/pattern-circles.svg);
   background-repeat: no-repeat;
   background-color: #d87c49;
   justify-content: center;
@@ -229,7 +229,7 @@ header {
 
 /* ==== THIS IS MY ZX7 SPEAKERS SECTION ==== */
 .zx7-speaker {
-  background-image: url(Assests/home/desktop/image-speaker-zx7.jpg);
+  background-image: url(Assets/home/desktop/image-speaker-zx7.jpg);
   background-size: cover;
   border-radius: 6px;
   margin: 3rem 0;
@@ -376,7 +376,7 @@ header {
   }
 
   header {
-    background-image: url(Assests/home/tablet/image-header.jpg);
+    background-image: url(Assets/home/tablet/image-header.jpg);
     background-repeat: no-repeat;
     background-position: cover;
   }
@@ -455,7 +455,7 @@ header {
   .earphones-pic {
     width: 450px;
     height: 320px;
-    background-image: url(Assests/product-yx1-earphones/tablet/image-gallery-2.jpg);
+    background-image: url(Assets/product-yx1-earphones/tablet/image-gallery-2.jpg);
   }
   .earphones-details {
     display: flex;
@@ -520,7 +520,7 @@ header {
     width: 90%;
   }
   header {
-    background-image: url(Assests/home/mobile/image-header.jpg);
+    background-image: url(Assets/home/mobile/image-header.jpg);
     background-repeat: no-repeat;
     background-position: cover;
   }
@@ -601,7 +601,7 @@ header {
 
   /* ==== THIS IS MY ZX7 SPEAKERS SECTION ==== */
   .zx7-speaker {
-    background-image: url(Assests/home/mobile/image-speaker-zx7.jpg);
+    background-image: url(Assets/home/mobile/image-speaker-zx7.jpg);
     background-size: cover;
     gap: 2rem;
     padding: 2rem;
@@ -622,7 +622,7 @@ header {
   .earphones-pic {
     width: 100%;
     height: 100%;
-    background-image: url(Assests/home/tablet/image-earphones-yx1.jpg);
+    background-image: url(Assets/home/tablet/image-earphones-yx1.jpg);
   }
   .earphones-details {
     display: flex;
