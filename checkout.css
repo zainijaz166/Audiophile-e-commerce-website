@@ -6,7 +6,7 @@
 
 body {
   font-family: "Manrope", sans-serif;
-  background-color: #fafafa;
+  background-color: whitesmoke;
 }
 .container {
   flex-direction: column;
@@ -44,19 +44,36 @@ header {
 }
 
 .back-btn {
-  border: none;
   display: flex;
   align-items: start;
-  padding: 4rem 0;
-  background-color: #fafafa;
+  padding: 2rem 0;
+  /* background-color: #fafafa; */
+  background-color: whitesmoke;
   font-size: 15px;
-}
-
-.back-btn a {
   color: #898989;
   text-decoration: none;
+  width: 100%;
 }
 
+/* === THIS IS MY MAIN SECTION === */
+.checkout-form {
+  display: flex;
+  align-items: start;
+  margin-bottom: 7rem;
+  border-radius: 8px;
+  flex-direction: row;
+}
+.form-part {
+  background-color: white;
+  padding: 3rem;
+  width: 70%;
+}
+.section-title {
+  padding: 3rem 0 1rem 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ca9075;
+}
 /* ==== THIS IS MY FOOTER SECTION ==== */
 .footer-line {
   background-color: #ff5500;
