@@ -62,6 +62,7 @@ header {
   margin-bottom: 7rem;
   border-radius: 8px;
   flex-direction: row;
+  gap: 2rem;
 }
 .form-part {
   background-color: white;
@@ -73,6 +74,109 @@ header {
   font-size: 14px;
   font-weight: 500;
   color: #ca9075;
+}
+
+.cart-items {
+  background-color: white;
+  width: 30%;
+  height: 70vh;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.cart-item {
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.cart-item-pic {
+  width: 60px;
+  border-radius: 8px;
+}
+.cart-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cart-item-name {
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+.cart-item-price {
+  font-size: 14px;
+  color: #898989;
+}
+.cart-item-quantity {
+  font-size: 12px;
+  color: #898989;
+  font-weight: 800;
+}
+
+.cart-total {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.total-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.total-price {
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+
+.cart-shipping {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.shipping-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.shipping-price {
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+
+.cart-vat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.vat-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.cart-grant-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.grant-total-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+
+.checkout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 2.5rem;
+  border: none;
+  background-color: rgb(216, 124, 73);
+  color: whitesmoke;
+  font-size: 12px;
+  margin-top: 1.5rem;
 }
 /* ==== THIS IS MY FOOTER SECTION ==== */
 .footer-line {
