@@ -60,13 +60,13 @@ header {
   display: flex;
   align-items: start;
   margin-bottom: 7rem;
-  border-radius: 8px;
   flex-direction: row;
   gap: 2rem;
 }
 .form-part {
   background-color: white;
   padding: 3rem;
+  border-radius: 8px;
   width: 70%;
 }
 .section-title {
