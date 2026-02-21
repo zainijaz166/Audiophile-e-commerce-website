@@ -52,86 +52,102 @@
         <h1>CHECKOUT</h1>
 
         <h3 class="section-title">BILLING DETAILS</h3>
+        <div class="customer-name">
+          <div class="billing-details">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="Name"
+              class="input-data"
+              id="name"
+              placeholder="Alexei Ward"
+            />
+          </div>
 
-        <div class="billing-details">
-          <label for="name">Name</label>
-          <input type="text" name="Name" id="name" placeholder="Alexei Ward" />
-        </div>
+          <div class="billing-details">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="Email"
+              class="input-data"
+              id="email"
+              placeholder="alexei@mail.com"
+            />
+          </div>
 
-        <div class="billing-details">
-          <label for="email">Email Address</label>
-          <input
-            type="email"
-            name="Email"
-            id="email"
-            placeholder="alexei@mail.com"
-          />
-        </div>
-
-        <div class="billing-details">
-          <label for="phone">Phone Number</label>
-          <input
-            type="tel"
-            name="Phone"
-            id="phone"
-            placeholder="+1 202-555-0136"
-          />
+          <div class="billing-details">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              name="Phone"
+              class="input-data"
+              id="phone"
+              placeholder="+1 202-555-0136"
+            />
+          </div>
         </div>
 
         <h3 class="section-title">SHIPPING INFO</h3>
-
-        <div class="shipping-part">
-          <label for="address">Address</label>
-          <input
-            type="text"
-            name="Address"
-            id="address"
-            placeholder="1137 Williams Avenue"
-          />
-        </div>
-        <div class="shipping-part">
-          <label for="zip-code">Zip Code</label>
-          <input
-            type="text"
-            name="Zip Code"
-            id="zip-code"
-            placeholder="10001"
-          />
-        </div>
-        <div class="shipping-part">
-          <label for="city">City</label>
-          <input type="text" name="City" id="city" placeholder="New York" />
-        </div>
-        <div class="shipping-part">
-          <label for="country">Country</label>
-          <input
-            type="text"
-            name="Country"
-            id="country"
-            placeholder="United States"
-          />
+        <div class="customer-address">
+          <div class="shipping-part address-data">
+            <label for="address">Address</label>
+            <input
+              type="text"
+              name="Address"
+              id="address"
+              class="input-address-data"
+              placeholder="1137 Williams Avenue"
+            />
+          </div>
+          <div class="shipping-part">
+            <label for="zip-code">Zip Code</label>
+            <input
+              type="text"
+              name="Zip Code"
+              id="zip-code"
+              class="input-address-data"
+              placeholder="10001"
+            />
+          </div>
+          <div class="shipping-part">
+            <label for="city">City</label>
+            <input type="text" name="City" id="city" class="input-address-data"  placeholder="New York" />
+          </div>
+          <div class="shipping-part">
+            <label for="country">Country</label>
+            <input
+              type="text"
+              name="Country"
+              id="country"
+              class="input-address-data"
+              placeholder="United States"
+            />
+          </div>
         </div>
 
         <h3 class="section-title">PAYMENT DETAILS</h3>
 
         <div class="payment-part">
-          <p class="input-label">Payment Method</p>
+          <div class="payment-method-opt">
 
-          <div class="radio-group">
-            <div class="option">
-              <input type="radio" id="emoney" name="payment" checked />
-              <label for="emoney" class="radio-label">
-                <span class="custom-radio"></span>
-                e-Money
-              </label>
-            </div>
-
-            <div class="option">
-              <input type="radio" id="cash" name="payment" />
-              <label for="cash" class="radio-label">
-                <span class="custom-radio"></span>
-                Cash on Delivery
-              </label>
+            <p class="input-label">Payment Method</p>
+            
+            <div class="radio-group">
+              <div class="option">
+                <input type="radio" id="emoney" name="payment" checked />
+                <label for="emoney" class="radio-label">
+                  <span class="custom-radio"></span>
+                  e-Money
+                </label>
+              </div>
+              
+              <div class="option">
+                <input type="radio" id="cash" name="payment" />
+                <label for="cash" class="radio-label">
+                  <span class="custom-radio"></span>
+                  Cash on Delivery
+                </label>
+              </div>
             </div>
           </div>
 
@@ -140,7 +156,7 @@
               <label for="e-money-number">e-Money Number</label>
               <input
                 type="text"
-                name="e-money-number"
+                name="e-money-number" class="input-number"
                 id="e-money-number"
                 placeholder="238521993"
               />
@@ -149,7 +165,7 @@
               <label for="e-money-pin">e-Money Pin</label>
               <input
                 type="text"
-                name="e-money-pin"
+                name="e-money-pin" class="input-number"
                 id="e-money-pin"
                 placeholder="6891"
               />
