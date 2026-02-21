@@ -75,11 +75,15 @@ header {
   font-weight: 500;
   color: #ca9075;
 }
+/* === THIS IS MY CHECKOUT FORM PART === */
+
+
+/* === THIS IS MY CART SUMMARY PART === */
 
 .cart-items {
   background-color: white;
-  width: 30%;
-  height: 70vh;
+  width: 28%;
+  height:auto;
   padding: 1.5rem;
   border-radius: 5px;
 }
@@ -165,13 +169,18 @@ header {
   color: #898989;
   font-weight: 500;
 }
+.grand-total-price{
+  font-size: 16px;
+  color: rgb(216, 124, 73);
+  font-weight: 800;
+}
 
 .checkout-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 95%;
-  height: 2.5rem;
+  width: 99%;
+  height: 2.8rem;
   border: none;
   background-color: rgb(216, 124, 73);
   color: whitesmoke;
