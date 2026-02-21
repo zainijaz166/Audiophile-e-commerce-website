@@ -73,7 +73,7 @@ header {
   padding: 3rem 0 1rem 0;
   font-size: 14px;
   font-weight: 500;
-  color: #ca9075;
+  color: #e25f23;
 }
 /* === THIS IS MY CHECKOUT FORM PART === */
 .customer-name {
@@ -125,7 +125,7 @@ header {
   gap: 1rem;
   font-weight: 600;
 }
-.radio-group{
+.radio-group {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -296,4 +296,174 @@ header {
   margin-top: 2rem;
   display: flex;
   align-items: start;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .container {
+    width: 94%;
+  }
+  /* ---- This is my NAVBAR PART---- */
+  .navbar {
+    width: 94%;
+  }
+
+  .back-btn {
+    padding: 3rem 0;
+  }
+  /* === THIS IS MY MAIN SECTION === */
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-part {
+    width: 100%;
+  }
+
+  .cart-items {
+    width: 100%;
+  }
+
+  .checkout-btn {
+    width: 100%;
+  }
+
+  /*=========== this is my footer part ======= */
+  .footer-line {
+    height: 4px;
+    position: relative;
+    margin: -4px 8%;
+  }
+
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 95%;
+  }
+  .footer-caption {
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .copyright {
+    position: relative;
+    margin-top: -22px;
+  }
+}
+
+/* ================ THIS IS MY MOBILE SECTION ==========  */
+@media (min-width: 300px) and (max-width: 800px) {
+  .container {
+    width: 94%;
+  }
+  /* ---- This is my NAVBAR PART---- */
+  .navbar {
+    width: 90%;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .back-btn {
+    padding: 1.5rem 0;
+  }
+
+  /* === THIS IS MY MAIN SECTION === */
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-part {
+    width: 100%;
+  }
+
+  .cart-items {
+    width: 100%;
+  }
+
+  .checkout-btn {
+    width: 100%;
+  }
+  .customer-name,
+  .customer-address,
+  .emoney-inputs {
+    grid-template-columns: 1fr;
+  }
+  .address-data {
+    grid-column: span 1;
+  }
+  .payment-method-opt {
+    display: flex;
+    flex-direction: column;
+  }
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  /* === THIS IS MY FOOTER SECTION ==== */
+  .footer-line {
+    position: relative;
+    margin: -4px 40%;
+    color: #d87c49;
+    height: 4px;
+  }
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .footer-nav-menu {
+    flex-direction: column;
+    font-size: 16px;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    margin: auto;
+  }
+  .footer-caption {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .copyright {
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+    padding-top: 1rem;
+    text-align: center;
+    margin: auto;
+  }
 }
