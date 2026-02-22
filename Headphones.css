@@ -79,7 +79,8 @@ header {
 }
 
 /* ===== This is my XX99 MARK II part ===== */
-.xx99 {
+.xx99,
+.xx99-mark-one {
   display: flex;
   flex-direction: row;
   gap: 6rem;
@@ -113,7 +114,7 @@ header {
   font-weight: 300;
 }
 
-.cart-btn {
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,4 +274,121 @@ header {
   margin-top: 2rem;
   display: flex;
   align-items: start;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .container {
+    width: 94%;
+  }
+  /* ---- This is my NAVBAR PART---- */
+  .navbar {
+    width: 94%;
+  }
+
+  .back-btn {
+    padding: 3rem 0;
+  }
+  .nav-underline {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  /* ===== This is my XX99 MARK II part ===== */
+  .xx99 {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  .xx99-mark-one {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .xx99-pic {
+    width: 100%;
+  }
+
+  .headphones-caption {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .product-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .headphones-name {
+    width: 100%;
+    padding: 0 16rem;
+  }
+  .headphones-details{
+    padding:0 3rem;
+    font-size: 16px;
+  }
+/* ===THIS IS MY CATEGORY SECTION ==== */
+  .category-items {
+    gap: 1rem;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .headphones-section,
+  .earphones-section,
+  .speakers-section {
+    width: 30%;
+  }
+
+  /* === This is my Audiophile bio section === */
+  .audiophile-bio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    padding: 0;
+  }
+  .gear-pic {
+    width: 100%;
+  }
+  .audiophile-details {
+    width: 100%;
+  }
+  .audiophile-heading {
+    margin: 5rem 0;
+  }
+
+  /*=========== this is my footer part ======= */
+  .footer-line {
+    height: 4px;
+    position: relative;
+    margin: -4px 8%;
+  }
+
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 95%;
+  }
+  .footer-caption {
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .copyright {
+    position: relative;
+    margin-top: -22px;
+  }
 }
