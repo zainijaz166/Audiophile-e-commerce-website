@@ -48,9 +48,9 @@ header {
   background-color: rgba(128, 128, 128, 0.318);
   margin: 0 13%;
   height: 0.5px;
-  /* width: 75%; */
+  width: 75%;
 }
-.heading{
+.heading {
   font-size: 24px;
   color: white;
   display: flex;
@@ -69,4 +69,208 @@ header {
 .back-btn a {
   color: #898989;
   text-decoration: none;
+}
+
+/* ===== This is MAIN part ===== */
+.headphones-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* ===== This is my XX99 MARK II part ===== */
+.xx99 {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  width: 75%;
+}
+.xx99-pic {
+  width: 49%;
+  border-radius: 6px;
+}
+
+.headphones-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.product-update {
+  font-size: 16px;
+  letter-spacing: 10px;
+  color: #dd7d4d;
+}
+.headphones-name {
+  font-size: 30px;
+  width: 55%;
+  line-height: 1.1;
+}
+.headphones-details {
+  font-size: 17px;
+  color: #6f6e6e;
+  width: 100%;
+  margin: 1rem 0;
+  font-weight: 300;
+}
+
+.cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36%;
+  height: 3rem;
+  background-color: #e77538da;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== This is my category part ===== */
+
+.category-items {
+  justify-content: center;
+  margin-bottom: 5rem;
+  flex-direction: row;
+  margin-top: 7rem;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.headphones-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  height: 190px;
+  width: 356px;
+}
+.speakers-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  width: 357px;
+  height: 190px;
+}
+.earphones-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  width: 357px;
+  height: 190px;
+}
+
+.category-name {
+  font-size: 16px;
+}
+
+.category-shop-btn {
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  color: #898989;
+  font-weight: 600;
+  margin-top: 14px;
+  font-size: 14px;
+}
+.arrow {
+  color: #e67e22;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.headphones-photo,
+.photo {
+  filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+  position: relative;
+  margin-top: -60px;
+  display: block;
+  width: 170px;
+  z-index: 10;
+}
+
+.speakers-photo {
+  width: 180px;
+}
+.earphones-photo {
+  width: 190px;
+}
+
+/* ==== THIS IS MY AUDIOPHILE BIO SECTION ==== */
+
+.audiophile-bio {
+  flex-direction: row;
+  display: flex;
+  gap: 2rem;
+  width: 75%;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.audiophile-heading {
+  flex-direction: column;
+  margin: 6rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.audio-gear-heading {
+  font-size: 50px;
+}
+.orange-color {
+  color: #dd7d4d;
+}
+
+.audiophile-details {
+  width: 82%;
+  color: #898989;
+}
+
+.gear-pic {
+  border-radius: 6px;
+}
+/* ==== THIS IS MY FOOTER SECTION ==== */
+.footer-line {
+  background-color: #ff5500;
+  height: 4px;
+  width: 100px;
+  margin-bottom: -0.2%;
+  margin-left: 12%;
+  z-index: 10;
+  position: relative;
+}
+.home {
+  text-decoration: none;
+  color: #dd7d4d;
+}
+.footer-container {
+  background-color: #101010;
+  padding: 5rem 0;
+}
+.footer-section {
+  display: flex;
+  color: #898989d3;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-caption {
+  width: 50%;
+}
+.social-media {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.copyright {
+  color: #898989d3;
+  margin-top: 2rem;
+  display: flex;
+  align-items: start;
 }
