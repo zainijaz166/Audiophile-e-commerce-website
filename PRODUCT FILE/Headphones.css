@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: whitesmoke;
+}
+.container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+}
+header {
+  background-color: #101010;
+}
+
+/* ---- This is my NAVBAR PART---- */
+.navbar {
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px 0;
+  display: flex;
+  width: 75%;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+.nav-btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.home {
+  text-decoration: none;
+  color: #dd7d4d;
+}
+
+.back-btn {
+  display: flex;
+  align-items: start;
+  padding: 2rem 0;
+  /* background-color: #fafafa; */
+  background-color: whitesmoke;
+  font-size: 15px;
+  color: #898989;
+  text-decoration: none;
+  width: 100%;
+}
+ 
