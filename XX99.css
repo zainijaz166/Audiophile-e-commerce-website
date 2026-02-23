@@ -357,6 +357,9 @@ header {
 .gear-pic {
   border-radius: 6px;
 }
+.tablet-gear-pic,.mobile-gear-pic{
+  display: none;
+}
 /* ==== THIS IS MY FOOTER SECTION ==== */
 .footer-line {
   background-color: #ff5500;

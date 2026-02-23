@@ -232,15 +232,18 @@ header {
 .orange-color {
   color: #dd7d4d;
 }
+.gear-pic {
+  border-radius: 6px;
+}
+.tablet-gear-pic,.mobile-gear-pic{
+  display: none;
+}
 
 .audiophile-details {
   width: 82%;
   color: #898989;
 }
 
-.gear-pic {
-  border-radius: 6px;
-}
 /* ==== THIS IS MY FOOTER SECTION ==== */
 .footer-line {
   background-color: #ff5500;
