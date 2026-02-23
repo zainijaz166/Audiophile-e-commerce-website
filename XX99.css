@@ -488,9 +488,15 @@ header {
     width: 95%;
     padding: 0;
   }
-  .gear-pic {
-    width: 98%;
+  .gear-pic,.mobile-gear-pic {
+    display: none;
   }
+  .tablet-gear-pic {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+  }
+
   .audiophile-details {
     width: 100%;
   }
@@ -639,17 +645,23 @@ header {
   .audiophile-bio {
     display: flex;
     flex-wrap: wrap-reverse;
-    margin-top: 5rem;
     align-items: center;
     text-align: center;
     padding-top: 7rem;
     padding-bottom: 7rem;
     margin: 0 auto;
     width: 90%;
+    padding: 2rem 0;
   }
   .gear-pic {
-    width: 100%;
+    display: none;
   }
+  .mobile-gear-pic{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+  }
+  
   .audiophile-details {
     width: 100%;
   }

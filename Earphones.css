@@ -1,0 +1,568 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #fafafa;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  width: 75%;
+}
+
+header {
+  background-color: #101010;
+}
+
+/* ---- This is my NAVBAR PART---- */
+.navbar {
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 30px 0;
+  display: flex;
+  width: 75%;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+.menu-logo {
+  display: none;
+}
+.nav-btn {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+.earphone {
+  text-decoration: none;
+  color: #dd7d4d;
+}
+.nav-underline {
+  background-color: rgba(128, 128, 128, 0.318);
+  margin: 0 13%;
+  height: 0.5px;
+  width: 75%;
+}
+.heading {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.back-btn {
+  border: none;
+  display: flex;
+  align-items: start;
+  padding: 2rem 0;
+  background-color: #fafafa;
+  font-size: 15px;
+}
+
+.back-btn a {
+  color: #898989;
+  text-decoration: none;
+}
+
+/* ===== This is MAIN part ===== */
+.earphone-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+/* ===== This is my SPEAKERS part ===== */
+.yx1-earphones {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  width: 75%;
+  padding: 2rem 0;
+}
+.yx1-pic {
+  width: 49%;
+  border-radius: 6px;
+}
+
+.earphones-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.product-update {
+  font-size: 16px;
+  letter-spacing: 10px;
+  color: #dd7d4d;
+}
+.earphone-name {
+  font-size: 30px;
+  width: 55%;
+  line-height: 1.1;
+}
+.earphone-details {
+  font-size: 16px;
+  color: #6f6e6ea5;
+  width: 100%;
+  margin: 1rem 0;
+  font-weight: 400;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36%;
+  height: 3rem;
+  background-color: #e77538da;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== This is my category part ===== */
+
+.category-items {
+  justify-content: center;
+  margin-bottom: 5rem;
+  flex-direction: row;
+  margin-top: 7rem;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+}
+
+.headphones-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  height: 190px;
+  width: 356px;
+}
+.speakers-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  width: 357px;
+  height: 190px;
+}
+.earphones-section {
+  background-color: #f1f1f1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  width: 357px;
+  height: 190px;
+}
+
+.category-name {
+  font-size: 16px;
+}
+
+.category-shop-btn {
+  display: inline-flex;
+  text-decoration: none;
+  align-items: center;
+  color: #898989;
+  font-weight: 600;
+  margin-top: 14px;
+  font-size: 14px;
+}
+.arrow {
+  color: #e67e22;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.headphones-photo,
+.photo {
+  filter: drop-shadow(0 15px 15px rgba(0, 0, 0, 0.3));
+  position: relative;
+  margin-top: -60px;
+  display: block;
+  width: 170px;
+  z-index: 10;
+}
+
+.speakers-photo {
+  width: 180px;
+}
+.earphones-photo {
+  width: 190px;
+}
+
+/* ==== THIS IS MY AUDIOPHILE BIO SECTION ==== */
+
+.audiophile-bio {
+  flex-direction: row;
+  display: flex;
+  gap: 2rem;
+  width: 75%;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+
+.audiophile-heading {
+  flex-direction: column;
+  margin: 6rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.audio-gear-heading {
+  font-size: 50px;
+}
+.orange-color {
+  color: #dd7d4d;
+}
+
+.audiophile-details {
+  width: 82%;
+  color: #898989;
+}
+
+.gear-pic {
+  border-radius: 6px;
+}
+.tablet-gear-pic,.mobile-gear-pic{
+  display: none;
+}
+
+/* ==== THIS IS MY FOOTER SECTION ==== */
+.footer-line {
+  background-color: #ff5500;
+  height: 4px;
+  width: 100px;
+  margin-bottom: -0.2%;
+  margin-left: 12%;
+  z-index: 10;
+  position: relative;
+}
+.earphone {
+  text-decoration: none;
+  color: #f18149;
+}
+.footer-container {
+  background-color: #101010;
+  padding: 5rem 0;
+}
+.footer-section {
+  display: flex;
+  color: #898989d3;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.footer-caption {
+  width: 50%;
+}
+.social-media {
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.copyright {
+  color: #898989d3;
+  margin-top: 2rem;
+  display: flex;
+  align-items: start;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .container {
+    width: 94%;
+  }
+  /* ---- This is my NAVBAR PART---- */
+  .navbar {
+    width: 94%;
+  }
+  .menu-logo {
+    display: none;
+  }
+  .back-btn {
+    padding: 3rem 0;
+  }
+  .nav-underline {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  /* ===== This is EARPHONE part ===== */
+  .yx1-earphones {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yx1-pic {
+    width: 100%;
+  }
+
+  .earphones-caption {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .product-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .earphone-name {
+    width: 100%;
+    padding: 0 16rem;
+  }
+  .earphone-details {
+    padding: 0 3rem;
+    font-size: 16px;
+  }
+  /* ===THIS IS MY CATEGORY SECTION ==== */
+  .category-items {
+    gap: 1rem;
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+  .headphones-section,
+  .earphones-section,
+  .speakers-section {
+    width: 30%;
+  }
+
+  /* === This is my Audiophile bio section === */
+  .audiophile-bio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    padding: 0;
+  }
+  .gear-pic,.mobile-gear-pic {
+    display: none;
+  }
+  .tablet-gear-pic {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  .audiophile-details {
+    width: 100%;
+  }
+  .audiophile-heading {
+    margin: 5rem 0;
+  }
+
+  /*=========== this is my footer part ======= */
+  .footer-line {
+    height: 4px;
+    position: relative;
+    margin: -4px 8%;
+  }
+
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .footer-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 95%;
+  }
+  .footer-caption {
+    width: 100%;
+  }
+  .social-media {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .copyright {
+    position: relative;
+    margin-top: -22px;
+  }
+}
+
+/* ================ THIS IS MY MOBILE SECTION ==========  */
+@media (min-width: 300px) and (max-width: 800px) {
+  .container {
+    margin: 0 1.5rem;
+  }
+  /* ---- This is my NAVBAR PART---- */
+  .navbar {
+    width: 88%;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .back-btn {
+    padding: 1.5rem 0;
+  }
+  .nav-underline {
+    width: 100%;
+    margin: 0;
+  }
+  .menu-logo {
+    display: block;
+  }
+  .heading {
+    font-size: 16px;
+    padding: 2rem 0;
+  }
+  /* ===== This is EARPHONE part ===== */
+  .yx1-earphones {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 87%;
+  }
+  .yx1-pic {
+    width: 100%;
+  }
+  .product-update {
+    letter-spacing: 9px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  .earphone-name {
+    width: 100%;
+  }
+
+  .earphone-caption {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .product-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    width: 60%;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .earphone-details {
+    padding: 0 1rem;
+    font-size: 15px;
+  }
+
+  /* ===THIS IS MY CATEGORY SECTION ==== */
+  .category-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+  }
+
+  /* === This is my Audiophile bio section === */
+  .audiophile-bio {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    margin: 0 auto;
+    width: 90%;
+    padding: 2rem 0;
+  }
+  .gear-pic {
+    display: none;
+  }
+  .mobile-gear-pic{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  .audiophile-details {
+    width: 100%;
+  }
+  .audiophile-heading {
+    margin: 1rem 0;
+  }
+  .audio-gear-heading {
+    font-size: 28px;
+  }
+  .audiophile-details {
+    font-size: 14px;
+  }
+
+  /* === THIS IS MY FOOTER SECTION ==== */
+  .footer-line {
+    position: relative;
+    margin: -4px 40%;
+    height: 4px;
+  }
+  .footer-container {
+    padding: 3rem 2rem;
+  }
+  .earphone {
+    color: #d87c49;
+  }
+
+  .footer-navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+  }
+  .footer-nav-menu {
+    flex-direction: column;
+    font-size: 16px;
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+    margin: auto;
+  }
+  .footer-caption {
+    text-align: center;
+    width: 100%;
+  }
+  .social-media {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  .copyright {
+    align-items: center;
+    font-size: 14px;
+    display: flex;
+    padding-top: 1rem;
+    text-align: center;
+    margin: auto;
+  }
+}

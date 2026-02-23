@@ -341,7 +341,7 @@ header {
     width: 30%;
   }
 
-  /* === This is my Audiophile bio section === */
+ /* === This is my Audiophile bio section === */
   .audiophile-bio {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -351,9 +351,15 @@ header {
     width: 95%;
     padding: 0;
   }
-  .gear-pic {
-    width: 100%;
+  .gear-pic,.mobile-gear-pic {
+    display: none;
   }
+  .tablet-gear-pic {
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+  }
+
   .audiophile-details {
     width: 100%;
   }
@@ -491,8 +497,14 @@ header {
     padding: 2rem 0;
   }
   .gear-pic {
-    width: 100%;
+    display: none;
   }
+  .mobile-gear-pic{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+  }
+  
   .audiophile-details {
     width: 100%;
   }
