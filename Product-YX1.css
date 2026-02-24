@@ -61,7 +61,7 @@ header {
   text-decoration: none;
 }
 
-/* ===== This is my XX99 MARK II part ===== */
+/* ===== This is YX1 EARPHONE part ===== */
 .yx1-earphones {
   display: flex;
   flex-direction: row;
@@ -187,7 +187,7 @@ header {
   font-weight: bold;
 }
 
-/* ===== This is my Headphone photo part ===== */
+/* ===== This is my PRODUCT photo part ===== */
 
 .product-pic {
   display: flex;
@@ -263,7 +263,7 @@ header {
   justify-content: center;
   flex-direction: row;
   margin-top: 7rem;
-  flex-wrap: wrap;
+  margin-bottom: 7rem;
   display: flex;
   gap: 2rem;
 }
@@ -276,7 +276,7 @@ header {
   border-radius: 6px;
   display: flex;
   height: 190px;
-  width: 31%;
+  width: 32%;
 }
 .speakers-section {
   background-color: #f1f1f1;
@@ -286,7 +286,7 @@ header {
   border-radius: 6px;
   display: flex;
   height: 190px;
-  width: 31%;
+  width: 32%;
 }
 .earphones-section {
   background-color: #f1f1f1;
@@ -296,7 +296,7 @@ header {
   border-radius: 6px;
   display: flex;
   height: 190px;
-  width: 31%;
+  width: 32%;
 }
 
 .category-name {
@@ -511,11 +511,9 @@ header {
     gap: 7rem;
   }
 
-  /* ===THIS IS MY CATEGORY SECTION ==== */
+ /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     gap: 1rem;
-    width: 100%;
-    margin: 0;
   }
   .headphones-section,
   .earphones-section,
@@ -695,15 +693,14 @@ header {
 
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
-    margin: 0 auto;
     display: flex;
-    width: 90%;
+    flex-direction: column;
     gap: 5rem;
   }
   .headphones-section,
-  .speakers-section,
-  .earphones-section {
-    width: 100%;
+  .earphones-section,
+  .speakers-section {
+    width: 95%;
   }
 
   /* === This is my Audiophile bio section === */

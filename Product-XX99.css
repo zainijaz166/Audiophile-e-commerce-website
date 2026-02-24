@@ -255,6 +255,7 @@ header {
   justify-content: center;
   flex-direction: row;
   margin-top: 7rem;
+  margin-bottom: 7rem;
   display: flex;
   gap: 2rem;
 }
@@ -325,6 +326,7 @@ header {
 .earphones-photo {
   width: 190px;
 }
+
 
 /* ==== THIS IS MY AUDIOPHILE BIO SECTION ==== */
 
@@ -495,15 +497,12 @@ header {
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     gap: 1rem;
-    width: 100%;
-    margin: 0;
   }
   .headphones-section,
   .earphones-section,
   .speakers-section {
     width: 30%;
   }
-
   /* === This is my Audiophile bio section === */
   .audiophile-bio {
     display: flex;
@@ -671,16 +670,14 @@ header {
 
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
-    flex-direction: column;
-    margin: 0 auto;
     display: flex;
-    width: 90%;
+    flex-direction: column;
     gap: 5rem;
   }
   .headphones-section,
   .earphones-section,
   .speakers-section {
-    width: 100%;
+    width: 95%;
   }
   /* === This is my Audiophile bio section === */
   .audiophile-bio {

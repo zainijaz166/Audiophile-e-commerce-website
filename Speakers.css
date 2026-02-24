@@ -133,10 +133,9 @@ header {
 
 .category-items {
   justify-content: center;
-  margin-bottom: 5rem;
   flex-direction: row;
   margin-top: 7rem;
-  flex-wrap: wrap;
+  margin-bottom: 7rem;
   display: flex;
   gap: 2rem;
 }
@@ -149,7 +148,7 @@ header {
   border-radius: 6px;
   display: flex;
   height: 190px;
-  width: 356px;
+  width: 32%;
 }
 .speakers-section {
   background-color: #f1f1f1;
@@ -158,8 +157,8 @@ header {
   position: relative;
   border-radius: 6px;
   display: flex;
-  width: 357px;
   height: 190px;
+  width: 32%;
 }
 .earphones-section {
   background-color: #f1f1f1;
@@ -168,8 +167,8 @@ header {
   position: relative;
   border-radius: 6px;
   display: flex;
-  width: 357px;
   height: 190px;
+  width: 32%;
 }
 
 .category-name {
@@ -310,7 +309,7 @@ header {
     margin: 0;
     width: 100%;
   }
-  /* ===== This is my XX99 MARK II part ===== */
+  /* ===== This is my ZX9 SPEAKER part ===== */
   .zx9-speaker {
     display: flex;
     flex-direction: column;
@@ -343,16 +342,12 @@ header {
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     gap: 1rem;
-    width: 100%;
-    margin-top: 5rem;
-    margin-bottom: 0;
   }
   .headphones-section,
   .earphones-section,
   .speakers-section {
     width: 30%;
   }
-
   /* === This is my Audiophile bio section === */
   .audiophile-bio {
     display: flex;
@@ -446,7 +441,7 @@ header {
     font-size: 16px;
     padding: 2rem 0;
   }
-  /* ===== This is my XX99 MARK II part ===== */
+  /* ===== This is my ZX9 SPEAKER part ===== */
   .zx9-speaker {
     display: flex;
     flex-direction: column;
@@ -494,11 +489,13 @@ header {
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     gap: 5rem;
-    margin: 0 auto;
-    margin-top: 4rem;
+  }
+  .headphones-section,
+  .earphones-section,
+  .speakers-section {
+    width: 95%;
   }
 
   /* === This is my Audiophile bio section === */
