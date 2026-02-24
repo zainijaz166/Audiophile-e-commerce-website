@@ -600,6 +600,9 @@ header {
     justify-content: space-between;
     width: 60%;
   }
+  .menu-logo{
+    display: block;
+  }
   .nav-menu {
     display: none;
   }
