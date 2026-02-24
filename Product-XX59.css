@@ -61,23 +61,23 @@ header {
   text-decoration: none;
 }
 
-/* ===== This is YX1 EARPHONE part ===== */
-.yx1-earphones {
+/* ===== This is XX59 HEADPHONE part ===== */
+.xx59-headphone {
   display: flex;
   flex-direction: row;
   gap: 8rem;
   width: 75%;
 }
-.yx1-pic {
+.xx59-pic {
   width: 45%;
   border-radius: 6px;
 }
-.tablet-yx1-pic,
-.mobile-yx1-pic {
+.tablet-xx59-pic,
+.mobile-xx59-pic {
   display: none;
 }
 
-.earphone-caption {
+.headphone-caption {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -87,12 +87,12 @@ header {
   letter-spacing: 8px;
   color: #dd7d4d;
 }
-.earphone-name {
+.headphone-name {
   font-size: 40px;
   width: 55%;
   line-height: 1.3;
 }
-.earphone-details {
+.headphone-details {
   font-size: 15.5px;
   color: #807f7f;
   width: 95%;
@@ -127,7 +127,7 @@ header {
   color: #000;
 }
 
-.earphone-btn {
+.headphone-btn {
   display: flex;
   gap: 1rem;
 }
@@ -434,22 +434,22 @@ header {
     width: 95%;
   }
 
-  /* ===== This is my YX1 EARPHONE part ===== */
-  .yx1-earphones {
+  /* ===== This is my XX59  HEADPHONE part ===== */
+  .xx59-headphone {
     gap: 5rem;
     width: 95%;
     margin-bottom: 5rem;
   }
-  .earphone-name {
+  .headphone-name {
     font-size: 30px;
     width: 65%;
   }
-  .tablet-yx1-pic {
+  .tablet-xx59-pic {
     display: block;
     width: 35%;
   }
-  .yx1-pic,
-  .mobile-yx1-pic {
+  .xx59-pic,
+  .mobile-xx59-pic {
     display: none;
   }
   .number {
@@ -611,25 +611,25 @@ header {
   }
 
   /* ===== This is my YX1 EARPHONE part ===== */
-  .yx1-earphones {
+  .xx59-headphone {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     width: 93%;
     margin: 0 auto;
   }
-  .mobile-yx1-pic {
+  .mobile-xx59-pic {
     width: 100%;
     display: block;
   }
-  .tablet-yx1-pic,
-  .yx1-pic {
+  .tablet-xx59-pic,
+  .xx59-pic {
     display: none;
   }
   .product-update {
     letter-spacing: 10px;
   }
-  .earphone-name {
+  .headphone-name {
     font-size: 30px;
     width: 75%;
     line-height: 1.3;

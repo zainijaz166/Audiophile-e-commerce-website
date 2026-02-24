@@ -612,9 +612,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 95%;
+    width: 93%;
     margin: 0 auto;
-    width: 87%;
   }
    .mobile-xx99-pic {
     width: 100%;
