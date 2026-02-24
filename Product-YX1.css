@@ -190,7 +190,7 @@ header {
   flex-direction: row;
   gap: 1.5rem;
   margin-top: 7rem;
-  align-items: start;
+  justify-content: center;
 }
 .product-photo {
   border-radius: 6px;
@@ -199,11 +199,10 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  /* width: 100%; */
 }
-.right-pic {
-    width: 41.5rem;
-  height: 37rem;
+.ontop {
+  display: none;
+  width: 100%;
 }
 /* ===== This is my Product part ===== */
 
@@ -236,15 +235,17 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
-  width: 10rem;
+  width: 40%;
   height: 3rem;
   background-color: #d97c49;
 }
 
 .items-pic {
-  width: 22.3rem;
-  height: 22rem;
+  width: 100%;
   border-radius: 6px;
+}
+.tablet-items-pic,.mobile-items-pic{
+  display: none;
 }
 
 .product-name {
@@ -270,7 +271,7 @@ header {
   border-radius: 6px;
   display: flex;
   height: 190px;
-  width: 356px;
+  width: 31%;
 }
 .speakers-section {
   background-color: #f1f1f1;
@@ -279,8 +280,8 @@ header {
   position: relative;
   border-radius: 6px;
   display: flex;
-  width: 357px;
   height: 190px;
+  width: 31%;
 }
 .earphones-section {
   background-color: #f1f1f1;
@@ -289,8 +290,8 @@ header {
   position: relative;
   border-radius: 6px;
   display: flex;
-  width: 357px;
   height: 190px;
+  width: 31%;
 }
 
 .category-name {
@@ -425,6 +426,7 @@ header {
   }
   .tablet-yx1-pic {
     display: block;
+    width: 35%;
   }
   .yx1-pic,
   .mobile-yx1-pic {
@@ -437,32 +439,41 @@ header {
 
   .product-pic {
     display: flex;
-    flex-direction: column;
     width: 95%;
     align-items: center;
     justify-content: center;
     margin-bottom: 7rem;
   }
   .left-side-pic {
-    width: 97%;
+    width: 40%;
   }
   .right-pic {
     width: 100%;
   }
+  /* ===THIS IS MY OTHER PRODUCT SECTION ==== */
 
   .other-items {
     width: 100%;
     margin-bottom: 10rem;
   }
   .items {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
     justify-content: center;
-  }
-  .items-pic {
+    flex-direction: row;
+    display: flex;
     width: 95%;
-    height: auto;
+    gap: 0;
+  }
+  .items-pic,
+  .mobile-items-pic {
+    display: none;
+  }
+  .tablet-items-pic {
+    border-radius:6px;
+    display: block;
+    width: 95%;
+  }
+  .product-btn {
+    width: 55%;
   }
   /* ===THIS IS MY FEATURES SECTION ==== */
   .features {
@@ -631,11 +642,16 @@ header {
   .items {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
   }
-  .items-pic {
+  .items-pic,
+  .tablet-items-pic {
+    display: none;
+  }
+  .mobile-items-pic {
     width: 100%;
     height: auto;
+    display: block;
   }
   .items-heading {
     font-size: 24px;
@@ -655,11 +671,17 @@ header {
 
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 5rem;
+    align-items: center;
     margin: 0 auto;
+    display: flex;
+    width: 90%;
+    gap: 5rem;
+  }
+  .headphones-section,
+  .speakers-section,
+  .earphones-section {
+    width: 100%;
   }
 
   /* === This is my Audiophile bio section === */
