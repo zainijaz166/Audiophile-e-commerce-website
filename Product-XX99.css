@@ -35,6 +35,9 @@ header {
   display: flex;
   gap: 3rem;
 }
+.menu-logo{
+  display: none;
+}
 .nav-btn {
   text-decoration: none;
   font-size: 14px;
@@ -67,8 +70,13 @@ header {
   width: 75%;
 }
 .xx99-pic {
-  width: 50%;
+  width: 45%;
   border-radius: 6px;
+}
+
+.tablet-xx99-pic,
+.mobile-xx99-pic {
+  display: none;
 }
 
 .headphones-caption {
@@ -428,6 +436,14 @@ header {
     width: 95%;
     margin-bottom: 5rem;
   }
+  .tablet-xx99-pic {
+    display: block;
+    width: 35%;
+  }
+  .xx99-pic,
+  .mobile-xx99-pic {
+    display: none;
+  }
   .headphones-name {
     font-size: 30px;
     width: 65%;
@@ -436,7 +452,7 @@ header {
     font-size: 18px;
     font-family: sans-serif;
   }
-
+/* === THIS IS MY PRODUCT PHOTO PART=== */
   .product-pic {
     display: flex;
     flex-direction: column;
@@ -497,6 +513,7 @@ header {
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     gap: 1rem;
+    width: 100%;
   }
   .headphones-section,
   .earphones-section,
@@ -575,6 +592,9 @@ header {
   .navbar {
     width: 90%;
   }
+  .menu-logo{
+    display: block;
+  }
   .logo {
     display: flex;
     justify-content: space-between;
@@ -596,8 +616,13 @@ header {
     margin: 0 auto;
     width: 87%;
   }
-  .xx99-pic {
+   .mobile-xx99-pic {
     width: 100%;
+    display: block;
+  }
+  .tablet-xx99-pic,
+  .xx99-pic {
+    display: none;
   }
   .product-update {
     letter-spacing: 10px;

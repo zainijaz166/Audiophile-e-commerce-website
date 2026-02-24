@@ -344,6 +344,7 @@ header {
  /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     gap: 1rem;
+    width: 100%;
   }
   .headphones-section,
   .earphones-section,

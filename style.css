@@ -286,6 +286,10 @@ header {
 .earphones-pic {
   border-radius: 6px;
 }
+.tablet-earphones-pic,
+.mobile-earphones-pic {
+  display: none;
+}
 .earphones-details {
   background-color: #f1f1f1;
   justify-content: center;
@@ -482,11 +486,17 @@ header {
     display: flex;
     justify-content: center;
     align-self: center;
+    /* width: %; */
   }
-  .earphones-pic {
-    width: 450px;
-    height: 320px;
-    background-image: url(Assets/product-yx1-earphones/tablet/image-gallery-2.jpg);
+  .earphones-pic,
+  .mobile-earphones-pic {
+    display: none;
+  }
+  .tablet-earphones-pic {
+    display: block;
+    width: 22rem;
+    height: 20rem;
+    border-radius: 6px;
   }
   .earphones-details {
     display: flex;
@@ -608,8 +618,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-    margin: 0 auto;
-     margin: 0 auto;
+    margin: 8rem auto;
     width: 95%;
   }
   .headphones-section,
@@ -669,10 +678,14 @@ header {
     justify-content: center;
     align-self: center;
   }
-  .earphones-pic {
+  .mobile-earphones-pic {
+    display: block;
+    border-radius: 6px;
     width: 100%;
-    height: 100%;
-    background-image: url(Assets/home/tablet/image-earphones-yx1.jpg);
+  }
+  .tablet-earphones-pic,
+  .earphones-pic {
+    display: none;
   }
   .earphones-details {
     display: flex;

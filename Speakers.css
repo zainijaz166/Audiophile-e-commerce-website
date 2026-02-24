@@ -341,6 +341,7 @@ header {
   }
   /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
+   width: 100%;
     gap: 1rem;
   }
   .headphones-section,
@@ -352,7 +353,6 @@ header {
   .audiophile-bio {
     display: flex;
     flex-wrap: wrap-reverse;
-    margin-top: 5rem;
     align-items: center;
     text-align: center;
     width: 95%;
@@ -428,7 +428,7 @@ header {
     display: none;
   }
   .back-btn {
-    padding: 1.5rem 0;
+    padding: 2rem 0;
   }
   .nav-underline {
     width: 100%;
