@@ -299,7 +299,7 @@ header {
   .menu-logo {
     display: block;
   }
-  .nav-menu{
+  .nav-menu {
     display: none;
   }
   .back-btn {
@@ -337,7 +337,7 @@ header {
     padding: 0 3rem;
     font-size: 16px;
   }
- /* ===THIS IS MY CATEGORY SECTION ==== */
+  /* ===THIS IS MY CATEGORY SECTION ==== */
   .category-items {
     gap: 1rem;
   }
@@ -488,6 +488,8 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    margin: 0 auto;
+    width: 95%;
   }
   .headphones-section,
   .earphones-section,
