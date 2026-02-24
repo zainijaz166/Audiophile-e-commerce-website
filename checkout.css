@@ -38,16 +38,11 @@ header {
   font-size: 14px;
   color: white;
 }
-.home {
-  text-decoration: none;
-  color: #dd7d4d;
-}
 
 .back-btn {
   display: flex;
   align-items: start;
   padding: 2rem 0;
-  /* background-color: #fafafa; */
   background-color: whitesmoke;
   font-size: 15px;
   color: #898989;
@@ -297,7 +292,7 @@ header {
   display: flex;
   align-items: start;
 }
-
+/* ================ THIS IS MY TABLET SECTION ==========  */
 @media (min-width: 800px) and (max-width: 1200px) {
   .container {
     width: 94%;
@@ -306,7 +301,17 @@ header {
   .navbar {
     width: 94%;
   }
-
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .menu-logo {
+    display: block;
+  }
+  .nav-menu{
+    display: none;
+  }
   .back-btn {
     padding: 3rem 0;
   }
@@ -373,6 +378,14 @@ header {
   /* ---- This is my NAVBAR PART---- */
   .navbar {
     width: 90%;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  .menu-logo{
+    display: block;
   }
   .nav-menu {
     display: none;

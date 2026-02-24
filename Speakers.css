@@ -282,7 +282,7 @@ header {
   display: flex;
   align-items: start;
 }
-
+/* ================ THIS IS MY TABLET SECTION ==========  */
 @media (min-width: 800px) and (max-width: 1200px) {
   .container {
     width: 94%;
@@ -291,7 +291,15 @@ header {
   .navbar {
     width: 94%;
   }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
   .menu-logo {
+    display: block;
+  }
+  .nav-menu{
     display: none;
   }
   .back-btn {
@@ -416,6 +424,11 @@ header {
   .navbar {
     width: 88%;
   }
+   .logo{
+  display: flex;
+  justify-content:space-between;
+  width: 60%;
+}
   .nav-menu {
     display: none;
   }

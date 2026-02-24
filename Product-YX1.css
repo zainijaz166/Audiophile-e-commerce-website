@@ -35,6 +35,10 @@ header {
   display: flex;
   gap: 3rem;
 }
+.menu-logo {
+  display: none;
+}
+
 .nav-btn {
   text-decoration: none;
   font-size: 13px;
@@ -244,7 +248,8 @@ header {
   width: 100%;
   border-radius: 6px;
 }
-.tablet-items-pic,.mobile-items-pic{
+.tablet-items-pic,
+.mobile-items-pic {
   display: none;
 }
 
@@ -410,6 +415,20 @@ header {
     width: 94%;
   }
 
+  .nav-menu {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .menu-logo {
+    display: block;
+  }
+  .nav-menu{
+    display: none;
+  }
   .back-btn {
     padding: 3rem 0;
   }
@@ -468,7 +487,7 @@ header {
     display: none;
   }
   .tablet-items-pic {
-    border-radius:6px;
+    border-radius: 6px;
     display: block;
     width: 95%;
   }
@@ -576,6 +595,11 @@ header {
   .navbar {
     width: 90%;
   }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
   .nav-menu {
     display: none;
   }
@@ -583,7 +607,7 @@ header {
     padding: 1.5rem 0;
   }
 
-  /* ===== This is my XX99 MARK II part ===== */
+  /* ===== This is my YX1 EARPHONE part ===== */
   .yx1-earphones {
     display: flex;
     flex-direction: column;

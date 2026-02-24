@@ -231,15 +231,18 @@ header {
   justify-content: center;
   align-items: center;
   color: white;
-  width: 10rem;
+  width: 40%;
   height: 3rem;
   background-color: #d97c49;
 }
 
 .items-pic {
-  width: 22.3rem;
-  height: 22rem;
+  width: 100%;
   border-radius: 6px;
+}
+.tablet-items-pic,
+.mobile-items-pic {
+  display: none;
 }
 
 .product-name {
@@ -355,7 +358,8 @@ header {
 .gear-pic {
   border-radius: 6px;
 }
-.tablet-gear-pic,.mobile-gear-pic{
+.tablet-gear-pic,
+.mobile-gear-pic {
   display: none;
 }
 /* ==== THIS IS MY FOOTER SECTION ==== */
@@ -401,7 +405,17 @@ header {
   .navbar {
     width: 94%;
   }
-
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .menu-logo {
+    display: block;
+  }
+  .nav-menu{
+    display: none;
+  }
   .back-btn {
     padding: 3rem 0;
   }
@@ -436,19 +450,30 @@ header {
     width: 100%;
   }
 
+  /* ===THIS IS MY OTHER PRODUCT SECTION ==== */
+
   .other-items {
     width: 100%;
     margin-bottom: 10rem;
   }
   .items {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
     justify-content: center;
-  }
-  .items-pic {
+    flex-direction: row;
+    display: flex;
     width: 95%;
-    height: auto;
+    gap: 0;
+  }
+  .items-pic,
+  .mobile-items-pic {
+    display: none;
+  }
+  .tablet-items-pic {
+    border-radius: 6px;
+    display: block;
+    width: 95%;
+  }
+  .product-btn {
+    width: 55%;
   }
   /* ===THIS IS MY FEATURES SECTION ==== */
   .features {
@@ -489,7 +514,8 @@ header {
     width: 95%;
     padding: 0;
   }
-  .gear-pic,.mobile-gear-pic {
+  .gear-pic,
+  .mobile-gear-pic {
     display: none;
   }
   .tablet-gear-pic {
@@ -549,6 +575,11 @@ header {
   /* ---- This is my NAVBAR PART---- */
   .navbar {
     width: 90%;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
   }
   .nav-menu {
     display: none;
@@ -611,11 +642,16 @@ header {
   .items {
     display: flex;
     flex-direction: column;
-    width: 85%;
+    width: 100%;
   }
-  .items-pic {
+  .items-pic,
+  .tablet-items-pic {
+    display: none;
+  }
+  .mobile-items-pic {
     width: 100%;
     height: auto;
+    display: block;
   }
   .items-heading {
     font-size: 24px;
@@ -638,7 +674,7 @@ header {
     flex-direction: column;
     margin: 0 auto;
     display: flex;
-    width:90%;
+    width: 90%;
     gap: 5rem;
   }
   .headphones-section,
@@ -661,12 +697,12 @@ header {
   .gear-pic {
     display: none;
   }
-  .mobile-gear-pic{
+  .mobile-gear-pic {
     display: block;
     width: 100%;
     border-radius: 6px;
   }
-  
+
   .audiophile-details {
     width: 100%;
   }

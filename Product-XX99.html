@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HEADPHONES</title>
     <link rel="stylesheet" href="Product-XX99.css" />
-     <link
+    <link
       rel="icon"
       type="image/png"
       sizes="32x32"
@@ -19,10 +19,13 @@
   <body>
     <header>
       <nav class="container navbar">
-        <img src="Assets/shared/desktop/logo.svg" alt="#" />
+       <div class="logo">
+          <img class="menu-logo" src="Assets/menu.svg" alt="menu logo" />
+          <img src="Assets/shared/desktop/logo.svg" alt="logo" />
+        </div>
         <ul class="nav-menu">
           <li>
-            <a class="home" href="#">HOME</a>
+            <a class="nav-btn home" href="index.html">HOME</a>
           </li>
           <li>
             <a class="nav-btn" href="#">HEADPHONES</a>
@@ -138,6 +141,8 @@
           />
         </div>
       </section>
+
+      <!-- ===== This is my Product part =====  -->
       <section class="container other-items">
         <h3 class="items-heading">YOU MAY ALSO LIKE</h3>
         <div class="items">
@@ -146,6 +151,16 @@
               <img
                 class="items-pic"
                 src="Assets/product-xx99-mark-one-headphones/desktop/image-product.jpg"
+                alt="#"
+              />
+              <img
+                class="tablet-items-pic"
+                src="Assets/shared/tablet/image-xx99-mark-one-headphones.jpg"
+                alt="#"
+              />
+              <img
+                class="mobile-items-pic"
+                src="Assets/shared/mobile/image-xx99-mark-one-headphones.jpg"
                 alt="#"
               />
             </div>
@@ -158,6 +173,16 @@
               src="Assets/product-xx59-headphones/desktop/image-product.jpg"
               alt="#"
             />
+            <img
+              class="tablet-items-pic"
+              src="Assets/shared/tablet/image-xx59-headphones.jpg"
+              alt="#"
+            />
+            <img
+              class="mobile-items-pic"
+              src="Assets/shared/mobile/image-xx59-headphones.jpg"
+              alt=""
+            />
             <h3 class="product-name">XX59</h3>
             <a class="product-btn" href="HEADPHONES.html">SEE PRODUCT</a>
           </div>
@@ -166,6 +191,16 @@
               class="items-pic"
               src="Assets/product-zx9-speaker/desktop/image-product.jpg"
               alt="#"
+            />
+            <img
+              class="tablet-items-pic"
+              src="Assets/shared/tablet/image-zx9-speaker.jpg"
+              alt=""
+            />
+            <img
+              class="mobile-items-pic"
+              src="Assets/shared/mobile/image-zx9-speaker.jpg"
+              alt=""
             />
             <h3 class="product-name">ZX9 SPEAKER</h3>
             <a class="product-btn" href="HEADPHONES.html">SEE PRODUCT</a>
@@ -210,8 +245,8 @@
         </div>
       </section>
 
-       <!-- THIS IS MY AUDIOPHILE-BIO SECTION -->
-        <section class="container audiophile-bio">
+      <!-- THIS IS MY AUDIOPHILE-BIO SECTION -->
+      <section class="container audiophile-bio">
         <div class="audiophile-heading">
           <h3 class="audio-gear-heading">
             BRINGING YOU THE <span class="orange-color">BEST</span> AUDIO GEAR
@@ -227,8 +262,16 @@
           </p>
         </div>
         <img class="gear-pic" src="Assets/image-best-gear.jpg" alt="gear img" />
-        <img class="tablet-gear-pic" src="Assets/shared/tablet/image-best-gear.jpg" alt="gear img" />
-        <img src="Assets/shared/mobile/image-best-gear.jpg" alt="img" class="mobile-gear-pic" />
+        <img
+          class="tablet-gear-pic"
+          src="Assets/shared/tablet/image-best-gear.jpg"
+          alt="gear img"
+        />
+        <img
+          src="Assets/shared/mobile/image-best-gear.jpg"
+          alt="img"
+          class="mobile-gear-pic"
+        />
       </section>
     </main>
 

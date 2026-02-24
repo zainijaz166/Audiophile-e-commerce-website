@@ -33,12 +33,15 @@ header {
   flex-direction: row;
   padding: 30px 0;
   display: flex;
-  /* width: 75%; */
 }
+
 .nav-menu {
   list-style: none;
   display: flex;
   gap: 3rem;
+}
+.menu-logo {
+  display: none;
 }
 .nav-btn {
   text-decoration: none;
@@ -46,8 +49,8 @@ header {
   color: white;
   font-weight: 500;
 }
-.nav-btn:hover{
- transition:0.7s;
+.nav-btn:hover {
+  transition: 0.7s;
   color: #ee8041;
 }
 
@@ -60,7 +63,6 @@ header {
   background-color: rgba(128, 128, 128, 0.318);
   margin: 0 13%;
   height: 0.5px;
-  /* width: 75%; */
 }
 
 /* ======= This is my HERO PART ======= */
@@ -108,7 +110,7 @@ header {
   border: none;
   width: 14%;
 }
-.hero-button:hover{
+.hero-button:hover {
   background-color: #f09868;
 }
 
@@ -399,7 +401,17 @@ header {
     background-repeat: no-repeat;
     background-position: cover;
   }
-
+  .nav-menu {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .menu-logo {
+    display: block;
+  }
   .hero-part {
     display: flex;
     justify-content: center;
@@ -554,6 +566,14 @@ header {
 
   .nav-menu {
     display: none;
+  }
+  .menu-logo {
+    display: block;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
   }
   .hero-part {
     display: flex;

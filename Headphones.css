@@ -35,7 +35,7 @@ header {
   display: flex;
   gap: 3rem;
 }
-.menu-logo{
+.menu-logo {
   display: none;
 }
 .nav-btn {
@@ -240,7 +240,8 @@ header {
 .gear-pic {
   border-radius: 6px;
 }
-.tablet-gear-pic,.mobile-gear-pic{
+.tablet-gear-pic,
+.mobile-gear-pic {
   display: none;
 }
 /* ==== THIS IS MY FOOTER SECTION ==== */
@@ -282,6 +283,7 @@ header {
   align-items: start;
 }
 
+/* ================ THIS IS MY TABLET SECTION ==========  */
 @media (min-width: 800px) and (max-width: 1200px) {
   .container {
     width: 94%;
@@ -290,9 +292,17 @@ header {
   .navbar {
     width: 94%;
   }
-.menu-logo{
-  display: none;
-}
+  .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .menu-logo {
+    display: block;
+  }
+  .nav-menu{
+    display: none;
+  }
   .back-btn {
     padding: 3rem 0;
   }
@@ -344,7 +354,7 @@ header {
     width: 30%;
   }
 
- /* === This is my Audiophile bio section === */
+  /* === This is my Audiophile bio section === */
   .audiophile-bio {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -354,7 +364,8 @@ header {
     width: 95%;
     padding: 0;
   }
-  .gear-pic,.mobile-gear-pic {
+  .gear-pic,
+  .mobile-gear-pic {
     display: none;
   }
   .tablet-gear-pic {
@@ -415,6 +426,11 @@ header {
   .navbar {
     width: 88%;
   }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
   .nav-menu {
     display: none;
   }
@@ -425,7 +441,7 @@ header {
     width: 100%;
     margin: 0;
   }
-  .menu-logo{
+  .menu-logo {
     display: block;
   }
   .heading {
@@ -502,12 +518,12 @@ header {
   .gear-pic {
     display: none;
   }
-  .mobile-gear-pic{
+  .mobile-gear-pic {
     display: block;
     width: 100%;
     border-radius: 6px;
   }
-  
+
   .audiophile-details {
     width: 100%;
   }
