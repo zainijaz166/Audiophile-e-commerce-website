@@ -393,6 +393,236 @@ header {
   display: flex;
   align-items: start;
 }
+/* ==============================================================
+==============  THIS IS MY CHECKOUT PAGE =============== 
+================================================================== */
+.checkout-body {
+  font-family: "Manrope", sans-serif;
+  background-color: whitesmoke;
+}
+
+.checkout-header {
+  background-image: none;
+  background-color: black;
+}
+.back-btn {
+  display: flex;
+  align-items: start;
+  padding: 2rem 0;
+  background-color: whitesmoke;
+  font-size: 15px;
+  color: #898989;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* === THIS IS MY CHECKOUT MAIN SECTION === */
+.checkout-form {
+  display: flex;
+  align-items: start;
+  margin-bottom: 7rem;
+  flex-direction: row;
+  gap: 2rem;
+}
+.form-part {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 8px;
+  width: 70%;
+}
+.section-title {
+  padding: 3rem 0 1rem 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #e25f23;
+}
+/* === THIS IS MY CHECKOUT FORM PART === */
+.customer-name {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.billing-details {
+  display: grid;
+  gap: 0.6rem;
+  font-weight: 600;
+}
+.input-data {
+  width: 100%;
+  height: 3rem;
+  border: 1px solid #898989;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.shipping-part {
+  display: grid;
+  font-weight: 600;
+  gap: 0.7rem;
+}
+.customer-address {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.address-data {
+  display: grid;
+  grid-column: span 2;
+}
+.input-address-data {
+  width: 100%;
+  height: 3rem;
+  border: 1px solid #898989;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.payment-method-opt {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+  font-weight: 600;
+}
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.option {
+  border: 1px solid #898989;
+  align-items: center;
+  border-radius: 5px;
+  display: flex;
+  padding: 1rem;
+  height: 3rem;
+  gap: 1rem;
+}
+
+.emoney-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  font-weight: 600;
+}
+.input-number {
+  width: 100%;
+  height: 3rem;
+  border: 1px solid #898989;
+  border-radius: 5px;
+  padding: 1rem;
+}
+/* === THIS IS MY CART SUMMARY PART === */
+
+.cart-items {
+  background-color: white;
+  width: 28%;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+.cart-item {
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.cart-item-pic {
+  width: 60px;
+  border-radius: 8px;
+}
+.cart-item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.cart-item-name {
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+.cart-item-price {
+  font-size: 14px;
+  color: #898989;
+}
+.cart-item-quantity {
+  font-size: 12px;
+  color: #898989;
+  font-weight: 800;
+}
+
+.cart-total {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.total-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.total-price {
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+
+.cart-shipping {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.shipping-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.shipping-price {
+  font-size: 16px;
+  color: black;
+  font-weight: 800;
+}
+
+.cart-vat {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+.vat-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.cart-grant-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.grant-total-label {
+  font-size: 14px;
+  color: #898989;
+  font-weight: 500;
+}
+.grand-total-price {
+  font-size: 16px;
+  color: rgb(216, 124, 73);
+  font-weight: 800;
+}
+
+.checkout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  height: 2.8rem;
+  border: none;
+  background-color: rgb(216, 124, 73);
+  color: whitesmoke;
+  font-size: 12px;
+  margin-top: 1.5rem;
+}
 
 /* ================ THIS IS MY TABLET SECTION ==========  */
 @media (min-width: 768px) and (max-width: 1100px) {
@@ -560,6 +790,25 @@ header {
   .copyright {
     position: relative;
     margin-top: -22px;
+  }
+
+/* ============================================================================== THIS IS MY CHECKOUT PAGE ========================================================= */
+ .checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-part {
+    width: 100%;
+  }
+
+  .cart-items {
+    width: 100%;
+  }
+
+  .checkout-btn {
+    width: 100%;
   }
 }
 
@@ -771,5 +1020,42 @@ header {
     align-items: center;
     font-size: 14px;
     display: flex;
+  }
+
+  /* =================== THIS IS MY CHECKOUT PAGE =========================================================  */
+  /* === THIS IS MY MAIN SECTION === */
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-part {
+    width: 100%;
+  }
+
+  .cart-items {
+    width: 100%;
+  }
+
+  .checkout-btn {
+    width: 100%;
+  }
+  .customer-name,
+  .customer-address,
+  .emoney-inputs {
+    grid-template-columns: 1fr;
+  }
+  .address-data {
+    grid-column: span 1;
+  }
+  .payment-method-opt {
+    display: flex;
+    flex-direction: column;
+  }
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 }
