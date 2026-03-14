@@ -192,6 +192,67 @@ header {
   width: 190px;
 }
 
+.product-heading {
+  font-size: 24px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+/* ===== This is my XX99 MARK II part ===== */
+.product-section,
+.product-xx99,
+.product-zx7 {
+  display: flex;
+  flex-direction: row;
+  gap: 6rem;
+  width: 75%;
+}
+.products-pic {
+  width: 49%;
+  border-radius: 6px;
+}
+
+.products-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.product-update {
+  font-size: 16px;
+  letter-spacing: 10px;
+  color: #dd7d4d;
+}
+.products-name {
+  font-size: 30px;
+  width: 55%;
+  line-height: 1.1;
+}
+.products-details {
+  font-size: 17px;
+  color: #6f6e6e;
+  width: 100%;
+  margin: 1rem 0;
+  font-weight: 300;
+}
+
+.products-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36%;
+  height: 3rem;
+  background-color: #e77538da;
+  color: white;
+  text-decoration: none;
+}
+
 /* ==== THIS IS MY ZX9 SPEAKERS SECTION ==== */
 .speakers-zx9 {
   background-image: url(Assets/home/desktop/pattern-circles.svg);
@@ -1011,6 +1072,45 @@ header {
     margin-top: -22px;
   }
 
+  /* ===== This is my HEADPHONES part ===== */
+
+  .product-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-xx99,
+  .product-zx7 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .products-pic {
+    width: 100%;
+  }
+
+  .products-caption {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .pdt-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .products-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+  .products-name {
+    width: 100%;
+    padding: 0 16rem;
+  }
+  .products-details {
+    padding: 0 3rem;
+    font-size: 16px;
+  }
   /* ============================================================================== THIS IS MY CHECKOUT PAGE ========================================================= */
   .checkout-form {
     display: flex;
@@ -1176,6 +1276,52 @@ header {
   .earphones-section,
   .speakers-section {
     width: 95%;
+  }
+  /* ===== This is my PRODUCT part ===== */
+  .product-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    width: 87%;
+  }
+  .products-pic {
+    width: 100%;
+  }
+  .product-update {
+    letter-spacing: 9px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  .products-name {
+    width: 100%;
+  }
+  .product-xx99,
+  .product-zx7 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 87%;
+    margin: 0 auto;
+  }
+
+  .products-caption {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .pdt-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .products-btn {
+    width: 60%;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .products-details {
+    padding: 0 1rem;
+    font-size: 15px;
   }
   /* ==== THIS IS MY ZX9 SPEAKERS SECTION === */
   .speakers-zx9 {

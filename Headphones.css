@@ -53,7 +53,7 @@ header {
   height: 0.5px;
   width: 75%;
 }
-.heading {
+.product-heading {
   font-size: 24px;
   color: white;
   display: flex;
@@ -75,26 +75,26 @@ header {
 }
 
 /* ===== This is MAIN part ===== */
-.headphones-list {
+.product-list {
   display: flex;
   flex-direction: column;
   gap: 5rem;
 }
 
 /* ===== This is my XX99 MARK II part ===== */
-.xx99,
-.xx99-mark-one {
+.product-section,
+.product-xx99,.product-zx7 {
   display: flex;
   flex-direction: row;
   gap: 6rem;
   width: 75%;
 }
-.xx99-pic {
+.products-pic {
   width: 49%;
   border-radius: 6px;
 }
 
-.headphones-caption {
+.products-caption {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -104,12 +104,12 @@ header {
   letter-spacing: 10px;
   color: #dd7d4d;
 }
-.headphones-name {
+.products-name {
   font-size: 30px;
   width: 55%;
   line-height: 1.1;
 }
-.headphones-details {
+.products-details {
   font-size: 17px;
   color: #6f6e6e;
   width: 100%;
@@ -117,7 +117,7 @@ header {
   font-weight: 300;
 }
 
-.btn {
+.products-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -312,19 +312,19 @@ header {
     width: 100%;
   }
   /* ===== This is my XX99 MARK II part ===== */
-  .xx99 {
+  .product-section {
     display: flex;
     flex-direction: column;
   }
-  .xx99-mark-one {
+  .product-xx99,.product-zx7 {
     display: flex;
     flex-direction: column-reverse;
   }
-  .xx99-pic {
+  .products-pic {
     width: 100%;
   }
 
-  .headphones-caption {
+  .products-caption {
     text-align: center;
     justify-content: center;
     display: flex;
@@ -333,7 +333,7 @@ header {
     display: flex;
     justify-content: center;
   }
-  .headphones-name {
+  .products-name {
     width: 100%;
     padding: 0 16rem;
   }
@@ -446,14 +446,14 @@ header {
     padding: 2rem 0;
   }
   /* ===== This is my XX99 MARK II part ===== */
-  .xx99 {
+  .product-section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin: 0 auto;
     width: 87%;
   }
-  .xx99-pic {
+  .products-pic {
     width: 100%;
   }
   .product-update {
@@ -461,17 +461,17 @@ header {
     font-size: 16px;
     margin-bottom: 1rem;
   }
-  .headphones-name {
+  .products-name {
     width: 100%;
   }
-  .xx99-mark-one {
+  .product-xx99,.product-zx7 {
     display: flex;
     flex-direction: column-reverse;
     width: 87%;
     margin: 0 auto;
   }
 
-  .headphones-caption {
+  .products-caption {
     text-align: center;
     justify-content: center;
     display: flex;
@@ -480,12 +480,12 @@ header {
     display: flex;
     justify-content: center;
   }
-  .btn {
+  .products-btn {
     width: 60%;
     font-size: 15px;
     font-weight: 500;
   }
-  .headphones-details {
+  .products-details {
     padding: 0 1rem;
     font-size: 15px;
   }
