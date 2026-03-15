@@ -1,6 +1,6 @@
 # Audiophile E-commerce Website - Frontend Mentor Solution
 
-This is my solution to the [Audiophile e-commerce website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C1qS_QpS3). This project is a multi-page e-commerce platform built using only core web technologies, focusing on high-quality UI and responsive layouts.
+This is my solution to the [Audiophile e-commerce website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/audiophile-ecommerce-website-C8cuSd_wx). This project is a multi-page e-commerce platform built using only core web technologies, focusing on high-quality UI and responsive layouts.
 
 ## Features
 
